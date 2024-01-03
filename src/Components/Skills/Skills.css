@@ -1,0 +1,17 @@
+.skills h2 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.skills .carousel-container {
+  width: 60%; /* Ajusta el ancho del contenedor según sea necesario */
+  margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+/* Estilos para las imágenes dentro del carrusel */
+.slick-slide img {
+  width: 30%; /* Ajusta el ancho de las imágenes según sea necesario */
+  height: auto;
+  margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+}

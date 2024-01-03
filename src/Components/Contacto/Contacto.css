@@ -1,0 +1,58 @@
+/* Contacto.css */
+.form {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: rgb(113, 113, 114);
+}
+
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario .btn {
+    background-color: rgb(0, 0, 0);
+}
+
+.form .formulario h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+label {
+    display: none;
+    /* Ocultar las etiquetas por defecto */
+}
+
+textarea {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+
+}
+
+.form .formulario .btn {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+

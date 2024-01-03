@@ -1,0 +1,51 @@
+/* Proyectos.css */
+
+#proyectos {
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(107, 139, 139);
+  margin: 50px;
+}
+
+.proy {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  margin-bottom: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.proyecto-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  /* Agrega estilos adicionales según sea necesario */
+}

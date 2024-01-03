@@ -1,0 +1,36 @@
+.aboutme {
+    background-color: #797777;
+    width: 85%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aboutme h2 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .aboutme p {
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .aboutme .btn {
+    margin-top: 15px;
+    background-color: rgb(99, 99, 99);
+    color: #fff;
+    padding: 15px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .aboutme .btn:hover {
+    background-color: #4a494a;
+  }
+  
