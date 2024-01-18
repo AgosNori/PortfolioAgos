@@ -94,5 +94,6 @@
   #header .mobile-menu-icon {
     display: block;
     cursor: pointer;
+    color: rgb(107, 139, 139);
   }
 }

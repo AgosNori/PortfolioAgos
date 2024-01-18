@@ -49,3 +49,14 @@ button {
   z-index: 999;
   /* Agrega estilos adicionales según sea necesario */
 }
+@media screen and (max-width: 800px) {
+  .proy {
+    flex-direction: column;
+  }
+
+  .item {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+

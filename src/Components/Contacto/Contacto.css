@@ -32,10 +32,7 @@ input {
     box-sizing: border-box;
 }
 
-label {
-    display: none;
-    /* Ocultar las etiquetas por defecto */
-}
+
 
 textarea {
 
@@ -55,4 +52,24 @@ textarea {
     border-radius: 5px;
 }
 
+@media screen and (max-width:800px) {
+    .form h2{
+        font-size: 20px;
+    }
+    .form {
+        width: 60%;
+    }
 
+    .form input {
+        margin-left: 40px;
+        width: 65%;
+    }
+
+    .form textarea {
+        margin-left: 40px;
+        width: 65%;
+    }
+    .form .btn{
+        margin-left: 40px;
+    }
+}

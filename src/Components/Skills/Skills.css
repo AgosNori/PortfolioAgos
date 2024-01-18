@@ -15,3 +15,8 @@
   height: auto;
   margin: 0 auto; /* Centra la imagen dentro de su contenedor */
 }
+@media  screen and (max-width:800px) {
+  .skills .carousel-container{
+    width: 70%;
+  }
+}
