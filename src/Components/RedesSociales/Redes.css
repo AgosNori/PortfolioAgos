@@ -3,15 +3,13 @@
     flex-direction: column;
     gap: 10px;
     position: fixed;
-    margin-left: 10px;
-    margin-top: 13%;
-    
-
-}
-.redes ul{
-    list-style: none;
-
 }
 .redes ul li a img{
     width: 30px;
 }
+.redes {
+    position: fixed;
+    top: 40%; 
+    transform: translateY(-40%); 
+    margin-left: 10px;
+  }
