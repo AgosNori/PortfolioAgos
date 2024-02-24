@@ -47,7 +47,7 @@ function Header() {
             <a href="#contacto">Contacto</a>
           </li>
           <li>
-            <a href="./CvNoriegaActualizado (2).pdf">CV</a>
+            <a href="./CvNoriegaActualizado2.2.pdf">CV</a>
           </li>
         </ul>
       </nav>
