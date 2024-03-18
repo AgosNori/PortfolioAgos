@@ -30,7 +30,7 @@ function App() {
         <Loader />
       ) : (
         <>
-          <Header/>
+          <Header />
           <Redes />
           <Banner />
           <AboutMe />
