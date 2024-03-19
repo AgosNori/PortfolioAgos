@@ -35,7 +35,7 @@ function Header() {
         )}
         <ul className={`nav ${showMobileMenu ? 'show' : ''}`}>
           <li>
-            <a href="#App">Home</a>
+            <a href="">Home</a>
           </li>
           <li>
             <a href="#proyectos">Portfolio</a>
@@ -47,7 +47,7 @@ function Header() {
             <a href="#contacto">Contacto</a>
           </li>
           <li>
-            <a href="./CvNoriegaActualizado2.2.pdf">CV</a>
+            <a href="./CvAgos2.pdf">CV</a>
           </li>
         </ul>
       </nav>

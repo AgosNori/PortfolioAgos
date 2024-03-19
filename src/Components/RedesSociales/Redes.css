@@ -13,3 +13,7 @@
     transform: translateY(-40%); 
     margin-left: 10px;
   }
+.redes ul li a .x{
+    width: 55px;
+    margin-left: -12px;
+}

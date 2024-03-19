@@ -1,6 +1,7 @@
 .aboutme {
   background-color: #797777;
   justify-content: center;
+
   width: 85%;
   padding: 20px;
   text-align: center;
@@ -21,8 +22,8 @@
 
 .aboutme .btn {
   margin-top: 15px;
-  background-color: rgb(99, 99, 99);
-  color: #fff;
+  background-color:#FCB1A6;
+  color: black;
   padding: 15px 24px;
   font-size: 16px;
   border: none;
@@ -32,10 +33,13 @@
 }
 
 .aboutme .btn:hover {
-  background-color: #4a494a;
+  background-color: #f8bbb1;
 }
 
 @media screen and (max-width:800px) {
+  .aboutme{
+    margin-top: 40px;
+  }
   .aboutme h2 {
     margin-top: 60px;
    

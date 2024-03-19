@@ -76,6 +76,22 @@ const proyectosData = [
     descripcion: 'Juego ahorcado, creado con HTML, CSS y Js',
     video: './juegoAhorcado.mp4'
   },
+  {
+    url:'https://github.com/AgosNori/ToDoListDjango',
+    imagen:'./todolist.png',
+    alt:'TodoListDjango Image',
+    titulo:'To do List With Django',
+    descripcion:'Lista de tareas realizadas con Django',
+    video:''
+  },
+  {
+    url:'https://github.com/AgosNori/Dino--SinConexi-n',
+    imagen:'./dino.png',
+    alt:'JuegoDino Image',
+    titulo:' Dino--SinConex-n',
+    descripcion:'Juego del dino de google hecho con HTML, CSS y JS',
+    video:''
+  },
 ];
 
 const Proyectos = () => {
