@@ -67,10 +67,12 @@ textarea {
     border-radius: 5px;
     margin: 20px;
 }
-.form .formulario .btn:hover{
+
+.form .formulario .btn:hover {
     background-color: #222121;
-  
+
 }
+
 @media screen and (max-width:800px) {
     .form h2 {
         font-size: 20px;
@@ -86,9 +88,13 @@ textarea {
         margin-top: -10px;
     }
 
+    .form .formulario {
+        width: calc(100% - 20px);
+    }
+
     input,
     textarea {
-        margin-left: 0;
+
         /* Elimina el margen izquierdo */
         width: calc(100% - 20px);
         /* Ajusta el ancho para tener en cuenta el padding */
