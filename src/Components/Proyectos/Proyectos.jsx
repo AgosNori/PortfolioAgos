@@ -92,6 +92,39 @@ const proyectosData = [
     descripcion:'En este proyecto hemos recreado el juego del dinosaurio de Google. Herramientas utilizadas para la creación del mismo: HTML, CSS y Js.',
     video:''
   },
+  {
+    url:'https://marion.ar/',
+    imagen:'./pageMarion.png',
+    alt:'Page Marion - asesora de imagen',
+    titulo:'Marion',
+    descripcion: 'En este proyecto he realizado el diseño de la pag',
+    video:'./marion.mp4',
+  },
+  {
+    url:'https://github.com/AgosNori/TasksApp',
+    imagen:'./djangocrud.png',
+    alt:'CRUD con Django y React',
+    titulo:'CRUDdjandReact',
+    descripcion: 'En este proyecto se ha realizado con django (back) y react (front)',
+    video:'./CrudDjango.mp4',
+  },
+  {
+    url:'https://iamthrasher.com/',
+    imagen:'./kevin.png',
+    alt:'Portfolio para Kevin',
+    titulo:'Kevin',
+    descripcion: 'En este proyecto he estado trabajando en el diseño y desarrollo frontend',
+    video:'./kevinVideo.mp4',
+  },
+  {
+    url:'https://github.com/AgosNori/Cita2New',
+    imagen:'./CitaconlaVida.png',
+    alt:'Pagina para la iglesia',
+    titulo:'Página para la Iglesia Cita con la Vida Monte Cristo',
+    descripcion: 'En este proyecto he estado trabajando en el diseño y desarrollo frontend',
+    video:'./citaVideo.mp4',
+  },
+
 ];
 
 const Proyectos = () => {

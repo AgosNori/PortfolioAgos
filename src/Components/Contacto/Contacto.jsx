@@ -20,7 +20,7 @@ export const Contacto = () => {
 
                 Swal.fire({
                     title: "Mensaje enviado!",
-                    text: "Gracias por contactarnos.",
+                    text: "Gracias por contactarme.",
                     icon: "success",
                     confirmButtonText: "OK"
                 })
@@ -51,11 +51,11 @@ export const Contacto = () => {
                 </fieldset>
                 <fieldset>
                     <label className='symbol-required number' htmlFor="">Numero de telefono</label>
-                    <input type="tel" name="number" placeholder='Ingrese su numero de telefono' />
+                    <input type="tel" name="number" placeholder='Ingrese su numero de telefono'  required/>
                 </fieldset>
                 <fieldset>
                     <label className="symbol-required name" htmlFor="">Consulta</label>
-                    <textarea className='texto' name="message" cols="20" rows="6" placeholder='Deje su mensaje'></textarea>
+                    <textarea className='texto' name="message" cols="20" rows="6" placeholder='Deje su mensaje' required></textarea>
                 </fieldset>
                 <button className='btn'>Enviar</button>
             </form>
